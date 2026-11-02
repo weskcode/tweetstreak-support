@@ -14,7 +14,9 @@ GitHub issues are public. Do not include passwords, OAuth tokens, API keys, emai
 
 Complete the welcome pages, choose a daily posts goal, and select **Use manual tracking** to enter your own counts. Reply goals are optional in Settings. **Try sample data** opens an isolated read-only preview.
 
-Automatic X tracking in version 1.0 is restricted to @weskcode. Other users can use manual tracking or sample data. Connecting X requires configured X developer access, and X API usage may incur charges. TweetStreak does not post to X or display post text or messages.
+Automatic X tracking uses your own X developer app. In the app, open Settings, X account, Set up X. That screen links to X's Developer Console, copies the callback URL, explains typical costs and takes your app's OAuth 2.0 Client ID. You buy X API credits from X; TweetStreak takes no payment. At about 20 posts a day, expect about $1.80 for the first import, then about $4 a month at X's prices on November 1, 2026. TweetStreak does not post to X or display post text or messages.
+
+If a sync fails, the message says why: out of credits or spending limit reached (add credits in the console), access denied (check OAuth 2.0, Native App and Read permission), or an expired connection (tap Reconnect X on the same screen).
 
 ## Activity and widgets
 
